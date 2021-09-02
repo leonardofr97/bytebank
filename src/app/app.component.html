@@ -1,4 +1,4 @@
 <app-nova-transferencia (aoTransferir)="transferir($event)"></app-nova-transferencia>
 
-<p>Valor: {{ transferencia.valor }}</p>
-<p>Destino: {{ transferencia.destino }}</p>
+<!-- property binding: o value da prop. transferencia de AppComponent é passada para o atributo transferencia de ExtratoComponent -->
+<app-extrato [transferencia]="transferencia"></app-extrato>

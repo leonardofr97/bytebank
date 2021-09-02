@@ -5,12 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+import { ExtratoComponent } from './extrato/extrato.component';
 
 // adicionando ao modulo
 @NgModule({
   declarations: [
     AppComponent,
-    NovaTransferenciaComponent
+    NovaTransferenciaComponent,
+    ExtratoComponent
   ],
   imports: [
     BrowserModule,
